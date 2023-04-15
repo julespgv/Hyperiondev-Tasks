@@ -1,0 +1,9 @@
+Rough pseudocode:
+Define functions and declare variables
+
+User selects valid destination from specified options.
+Request validated input for number of nights in hotel
+ and number of days' car hire.
+Calculate total holiday cost (function that calls subfunctions)
+ and assign to variable.
+Print total cost. 

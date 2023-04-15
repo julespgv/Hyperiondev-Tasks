@@ -1,0 +1,22 @@
+Pseudocode for calculator.py
+Import libaries, declare variables
+Define functions
+Loop selection of program mode read / calculator until user exits.
+
+If user selects Read mode,
+ Request filename,
+ Check file exists
+ Attempt to open file
+ display file contents if file open successful.
+ display errors on failure and re-request filename
+
+If user selects Calc mode:
+ Request user input of two numbers and operator.
+ If input was not valid, re-request until validated. Offer guidance to user.
+ Add valid variables to string, evaluate expression
+ If expression does not have valid solution,
+  display error messages.
+ If no errors generating expression/solution/equation
+  Assign the completed equation - the expression and result - to a string
+  Display the equation including result
+  Write the equation to a file (output.txt) and notify user.

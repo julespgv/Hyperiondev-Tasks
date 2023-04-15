@@ -1,0 +1,21 @@
+Program should achieve the following:
+
+User selects calculation of interest on an investment, or monthly repayments for a home loan. Program runs one of the functions below,
+then displays the relevant amounts in an informative message.
+
+Calculate the interest gained from an investment
+ Take user input for:
+ Initial investment amount, 
+ The time the amount is invested
+ Whether to use simple or compound interest.
+ The annual interest rate (percentage), 
+ Convert the interest rate from percentage to decimal.
+ Use either simple or compound interest formula as assign outcome to variable.
+ As stated in the Task, determine the extra money that will be gained as interest from the investment and return that in a message. 
+  
+Calculate monthly repayments on a home loan:
+
+Take user input for value of house, interest rate (integer), duration for repaying loan.
+Convert interest rate from percentage to decimal (/100) for calculation process.
+Calculate monthly repayment amount, using formula in Task explanation.
+Exit function returning string that clearly states the monthly repayment. (The program will display this where the function was called).
