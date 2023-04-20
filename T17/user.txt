@@ -1,0 +1,6 @@
+admin;password
+user;user
+doris;123
+agnes;456
+charles;789
+agni;fire

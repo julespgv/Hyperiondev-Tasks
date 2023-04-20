@@ -1,0 +1,25 @@
+Outline pseudocode for task_manager.py
+References and notes for program
+Import Libraries
+Prepare date format
+Define supporting functions that do not interact with user:
+ Provide error handling for functions at a high level
+ Calculate percentages
+ Handle file operations such as loading users/tasks
+ Handle user input accounting for special cases
+ Check if a specified task is overdue (
+
+Define functions that interact with user:
+ Login
+ Menu
+ Each function in menu
+  register user
+  add task
+  display all tasks
+  display logged-in user's tasks
+   functions to edit logged-in user's tasks (admin can edit all)
+  generate report files
+  display_statistics included here
+
+At end,
+define / run function that runs the program, including any required functions before the menu.
